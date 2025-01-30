@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Liter&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Liter";
+    font-weight: 450;
+    
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+
+}
+img {
+    max-width: 100%;
+}
+.wrapper{
+    
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgba(117,21,29,1) 100%);
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+header{
+    padding: 50px;
+}
+header nav ul{
+    margin-top: -20px;
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    width: 52%;
+    justify-content: space-between;
+    font-size: 24px;
+}
+header nav ul li a{
+    color: #fff;
+}
+.logo{
+    font-family: "poppins";
+    font-size: 44px;
+    margin-left: 180px;
+    font-weight: 700;
+    color: rgb(223, 28, 28);
+    
+}
+.hero-info {
+    margin-top: 155px;
+
+}
+.hero-info h1{
+    width: 20%;
+    font-size: 44px;
+    margin-bottom: 26px;
+    line-height:130%;
+    
+}
+.hero-info p{
+    width: 38%;
+    font-size: 18px;
+    line-height:180%;
+}
+.hero img{
+    position: relative;
+    margin-left: 750px;
+    width: 45%;
+    top: -483px;
+}
+.hero-info-2{
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 850px;
+    top: -460px;
+}
+.hero-info-2 h1{
+    width: 30%;
+    font-size: 44px;
+    margin-bottom: 26px;
+    line-height:130%;
+}
+.hero-info-2 p{
+    width: 40%;
+    font-size: 18px;
+    line-height:180%;
+}
+.Zgame{
+    position: relative;
+    margin-top: 45px;
+    left: -1680px;
+
+}
