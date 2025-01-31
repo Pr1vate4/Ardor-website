@@ -17,12 +17,14 @@ a {
 }
 img {
     max-width: 100%;
+    
 }
 .wrapper{
     
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgba(117,21,29,1) 100%);
     width: 100%;
+    
 }
 .container{
     margin: 0 auto;
@@ -42,6 +44,7 @@ header nav ul{
 }
 header nav ul li a{
     color: #fff;
+    
 }
 .logo{
     font-family: "poppins";
@@ -71,14 +74,14 @@ header nav ul li a{
     position: relative;
     margin-left: 750px;
     width: 45%;
-    top: -483px;
+    top: -420px;
 }
 .hero-info-2{
     padding-bottom: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     position: relative;
     left: 850px;
-    top: -460px;
+    top: -280px;
 }
 .hero-info-2 h1{
     width: 30%;
@@ -93,7 +96,33 @@ header nav ul li a{
 }
 .Zgame{
     position: relative;
-    margin-top: 45px;
     left: -1680px;
+
+}
+
+
+header nav ul li:not(.active) a:hover{
+    border-bottom: 5px solid  rgb(223, 28, 28);
+    
+}
+header nav ul li.active::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: rgb(223, 28, 28);
+    border-radius: 10px;
+}
+/*тут типо для девайсов*/
+.list-devices nav ul li{
+    list-style: none;
+    display: flex;
+}
+.list-devices nav ul li a{
+    color: #fff;
+    margin-left: 240px;
+    margin-top: 150px;
+    font-size: 26px;
+
 
 }
