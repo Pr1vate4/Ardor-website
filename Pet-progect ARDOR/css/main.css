@@ -32,6 +32,11 @@ img {
 }
 header{
     padding: 50px;
+    background: rgb(10, 10, 10);
+    
+    
+    z-index: 1000;
+    
 }
 header nav ul{
     margin-top: -20px;
@@ -41,6 +46,7 @@ header nav ul{
     width: 52%;
     justify-content: space-between;
     font-size: 24px;
+    
 }
 header nav ul li a{
     color: #fff;
@@ -101,7 +107,7 @@ header nav ul li a{
 }
 
 
-header nav ul li:not(.active) a:hover{
+header nav ul li:not(.active) a:hover, .list-devices nav ul li:not(.active) a:hover{
     border-bottom: 5px solid  rgb(223, 28, 28);
     
 }
@@ -116,13 +122,38 @@ header nav ul li.active::after{
 /*тут типо для девайсов*/
 .list-devices nav ul li{
     list-style: none;
-    display: flex;
+    display: block;
+    width: 60%;
+    padding: 30px;
+    text-align: center;
+    
+}
+.list-devices nav ul li:not(.last){
+    padding-bottom: 100px;
+
 }
 .list-devices nav ul li a{
     color: #fff;
-    margin-left: 240px;
+    
+    margin-left: 170px;
     margin-top: 150px;
     font-size: 26px;
-
-
+}
+.list-devices nav ul{
+    padding: 30px;
+    margin-right: 1445px;
+    background-color: rgb(10,10,10);
+    
+}
+.list-devices nav ul li.active::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: rgb(223, 28, 28);
+    border-radius: 10px;
+    margin-left: 170px
+}
+.list-devices nav ul li.last{
+    margin-bottom: 300px;
 }
