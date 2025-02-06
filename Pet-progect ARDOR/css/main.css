@@ -31,11 +31,11 @@ img {
     width: 1400px;
 }
 header{
-    padding: 50px;
+    padding: 30px;
     background: rgb(10, 10, 10);
     
     
-    z-index: 1000;
+    
     
 }
 header nav ul{
@@ -45,8 +45,8 @@ header nav ul{
     margin-left: 500px;
     width: 52%;
     justify-content: space-between;
-    font-size: 24px;
-    
+    font-size: 21px;
+    margin-top: -40px;
 }
 header nav ul li a{
     color: #fff;
@@ -129,15 +129,15 @@ header nav ul li.active::after{
     
 }
 .list-devices nav ul li:not(.last){
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 
 }
 .list-devices nav ul li a{
     color: #fff;
     
-    margin-left: 170px;
+    margin-left: 150px;
     margin-top: 150px;
-    font-size: 26px;
+    font-size: 21px;
 }
 .list-devices nav ul{
     padding: 30px;
@@ -152,8 +152,144 @@ header nav ul li.active::after{
     height: 5px;
     background: rgb(223, 28, 28);
     border-radius: 10px;
-    margin-left: 170px
+    margin-left: 150px
 }
 .list-devices nav ul li.last{
     margin-bottom: 300px;
+}
+.list-devices nav ul li::before{
+    content: " ";
+    display: block ;
+    
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 150px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+    
+}
+.devices nav ul li a{
+    
+    width: 20%;
+    padding: 100px 100px;
+    background: rgba(223, 28, 28, 50%); 
+    border-radius: 20px;
+    margin: 30px;
+    
+    
+
+    
+
+}
+.devices nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 500px;
+    margin-bottom: 1000px;
+    list-style: none;
+    margin-top: -700px;
+    
+
+}
+.about h1{
+    margin-top: 150px;
+    width: 20%;
+    line-height: 130%;
+    margin-bottom: 26px;
+    
+    font-size: 34px;
+}
+.about p{
+    width: 30%;
+    line-height:180%;
+    font-size: 20px;
+    
+    font-size: 21
+
+}
+.buttons .btn, .help .e-mail{
+   margin-top: 50px;
+   color: #fff;
+   border-radius: 35px;
+   width: 275px;
+   height: 75px;
+   border: 0;
+   font-size: 21px;
+   
+   list-style: none;
+   transition: all 500ms ease;
+   display: block;
+
+}
+.buttons .btn:hover, .help .e-mail:hover{
+    width: 311px;
+    height: 85px;
+    border-radius: 40px;
+}
+
+.buttons .telegram:hover{
+    background: rgb(32, 32, 71);
+
+}
+.buttons .e-mail:hover, .help .e-mail:hover{
+    background: rgb(172, 34, 34);
+
+}
+.buttons .github:hover{
+    background: rgb(19, 19, 19);
+
+
+}
+
+
+
+.buttons .btn a, .help .btn a{
+    color: #fff;
+}
+.buttons .telegram, .buttons .github, .buttons .e-mail{
+    margin-left: 530px;
+    position: relative;
+    top: -390px
+
+}
+.buttons .telegram{
+    background-color: rgb(38, 38, 88);
+}
+.buttons .e-mail, .help .e-mail{
+    background-color: rgb(223, 28, 28);
+
+}
+.buttons .github{
+    background-color: rgb(15, 15, 15);
+}
+
+/*Для помощи*/
+
+.wrapper .help{
+    text-align: center;
+    font-size: 37px;
+    margin-top: 150px;
+}
+.help .e-mail{
+    margin-left: 500px;
+    width: 366px;
+    height: 100px;
+    border-radius: 105px;
+    font-size: 27px;
+    
+    
+}
+.help .e-mail:hover{
+    width: 438px;
+    height: 120px;
+    border-radius: 117px;
+}
+.help{
+    margin-bottom: 1000px
 }
