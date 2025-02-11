@@ -22,7 +22,7 @@ img {
 .wrapper{
     
     background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgba(117,21,29,1) 100%);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgb(77, 10, 15) 100%);
     width: 100%;
     
 }
@@ -83,26 +83,33 @@ header nav ul li a{
     top: -420px;
 }
 .hero-info-2{
-    padding-bottom: 70px;
-    margin-bottom: 0px;
     position: relative;
-    left: 850px;
-    top: -280px;
+    top: -200px
+    
 }
 .hero-info-2 h1{
+    margin-left: 870px;
     width: 30%;
     font-size: 44px;
     margin-bottom: 26px;
     line-height:130%;
+    
+   
 }
 .hero-info-2 p{
+    margin-left: 850px;
     width: 40%;
     font-size: 18px;
     line-height:180%;
+    margin-bottom: -700px;
+    
+    
 }
 .Zgame{
     position: relative;
-    left: -1680px;
+    left: -850px;
+    margin-top: 490px;
+    
 
 }
 
@@ -290,6 +297,13 @@ header nav ul li.active::after{
     height: 120px;
     border-radius: 117px;
 }
-.help{
-    margin-bottom: 1000px
+/*Для футера*/
+footer{
+    
+    background: rgb(15, 15, 15);
+    
+}
+footer a{
+    display: flex;
+    justify-content: space-between;
 }
