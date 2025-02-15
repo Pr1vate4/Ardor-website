@@ -65,7 +65,13 @@ header nav ul li.active::after{
     background: rgb(223, 28, 28);
     border-radius: 10px;
 }
-/*тут для главной*/
+
+
+
+/**!тут для главной*/
+
+
+
 .logo{
     font-family: "poppins";
     font-size: 44px;
@@ -111,8 +117,8 @@ header nav ul li.active::after{
    
 }
 .hero-info-2 p{
-    margin-left: 850px;
-    width: 40%;
+    margin-left: 870px;
+    width: 41%;
     font-size: 18px;
     line-height:180%;
     margin-bottom: -700px;
@@ -122,16 +128,44 @@ header nav ul li.active::after{
 .Zgame{
     position: relative;
     left: -850px;
-    margin-top: 490px;
+    margin-top: 550px;
     
 
 }
 
 
+/**!тут типо для девайсов*/
 
 
+/**тут для описания каталога*/
 
-/*тут типо для девайсов*/
+.other-background{
+    background: rgb(255,0,95);
+    background: linear-gradient(90deg, rgba(255,0,95,1) -130%, rgba(0,0,0,1) 50%, rgba(255,0,95,1) 230%);
+}
+.description h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 44px;
+}
+.description p{
+    padding: 0px 140px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 200%;
+    
+    
+}
+.description img{
+    margin-left: 420px;
+    position: relative;
+    top: 50px;
+    
+    
+
+}
+/**тут для выбора каталога*/
 
 
 .list-devices nav ul li{
@@ -181,7 +215,7 @@ header nav ul li.active::after{
     height: 7px;
     background: rgb(66, 66, 66);
     border-radius: 100%;
-    margin-left: 150px;
+    margin-left: 155px;
     position: relative;
     right: -125px;    
     bottom: -20px;
@@ -213,55 +247,66 @@ header nav ul li.active::after{
 
 }
 */
-/*тут обо мне*/
+
+
+
+/**!тут обо мне*/
 
 
 .about h1{
-    margin-top: 150px;
-    width: 20%;
+    margin-top: 250px;
+    width: 25%;
     line-height: 130%;
-    margin-bottom: 26px;
-    
+    margin-bottom: 32px;
     font-size: 34px;
 }
 .about p{
-    width: 30%;
+    width: 41%;
     line-height:180%;
     font-size: 20px;
+    font-size: 21;
+    margin-bottom: -30px;
     
-    font-size: 21
 
 }
-.buttons .btn, .help .e-mail{
-   margin-top: 50px;
+.buttons .btn{
+   margin-top: 0px;
    color: #fff;
    border-radius: 35px;
    width: 275px;
    height: 75px;
    border: 0;
    font-size: 21px;
-   
    list-style: none;
    transition: all 500ms ease;
    display: block;
+   justify-content: space-between;
+   
+   
+   
+
 
 }
-.buttons .btn:hover, .help .e-mail:hover{
+.buttons button{
+    margin-bottom: 120px;
+}
+
+.buttons .btn:hover{
     width: 311px;
     height: 85px;
     border-radius: 40px;
 }
 
 .buttons .telegram:hover{
-    background: rgb(32, 32, 71);
+    background: rgb(32, 31, 70);
 
 }
 .buttons .e-mail:hover, .help .e-mail:hover{
-    background: rgb(172, 34, 34);
+    background: rgb(165, 34, 34);
 
 }
 .buttons .github:hover{
-    background: rgb(19, 19, 19);
+    background: rgb(21, 21, 21);
 
 
 }
@@ -272,7 +317,7 @@ header nav ul li.active::after{
     color: #fff;
 }
 .buttons .telegram, .buttons .github, .buttons .e-mail{
-    margin-left: 530px;
+    margin-left: 690px;
     position: relative;
     top: -390px
 
@@ -285,16 +330,42 @@ header nav ul li.active::after{
 
 }
 .buttons .github{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(18, 18, 18);
+}
+.about-icons{
+    display: block;
+    margin-left: 1400px;
+    margin-top: -600px;
+    position: relative;
+    top: -400px;
+    width: 7%;
+}
+.about-icons img{
+    padding-bottom: 63px;
 }
 
-/*Для помощи*/
+.telegram-icon{
+    position: relative;
+    left: -130px;
+}
+.about-icons .telegram-icon{
+    margin-top: -7px;
+    margin-bottom: 7px;
+}
+.about-icons .github-icon{
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
 
-.wrapper .help{
+/**!Для помощи*/
+
+
+
+.wrapper .help p{
     text-align: center;
     font-size: 34px;
-    margin-top: 150px;
-    
+    margin-top: 200px;
+    margin-bottom: 70px;
 }
 .help .e-mail{
     margin-left: 500px;
@@ -302,7 +373,16 @@ header nav ul li.active::after{
     height: 100px;
     border-radius: 105px;
     font-size: 27px;
-       
+    margin-top: 50px;
+    color: #fff;
+   
+   
+    border: 0;
+   
+   
+    list-style: none;
+    transition: all 500ms ease;
+    display: block;   
     
 }
 .help .e-mail:hover{
@@ -310,13 +390,15 @@ header nav ul li.active::after{
     height: 120px;
     border-radius: 117px;
 }
+
 .help button{
     margin-bottom: 300px;
 }
 .help-point{
+    margin-top: 355px;
     font-size: 0px;
 }
-/*Для футера*/
+/**!Для футера*/
 footer{
     padding-top: 50px;
     background: rgb(15, 15, 15);
