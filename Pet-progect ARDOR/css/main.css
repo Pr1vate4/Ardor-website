@@ -22,7 +22,7 @@ img {
 .wrapper{
     
     background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgb(77, 10, 15) 100%);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgb(77, 10, 15) 115%);
     width: 100%;
     
 }
@@ -141,7 +141,7 @@ header nav ul li.active::after{
 
 .other-background{
     background: rgb(255,0,95);
-    background: linear-gradient(90deg, rgba(255,0,95,1) -130%, rgba(0,0,0,1) 50%, rgba(255,0,95,1) 230%);
+    background: linear-gradient(90deg, rgba(255,0,95,1) -200%, rgba(0,0,0,1) 50%, rgba(255,0,95,1) 300%);
 }
 .description h1{
     text-align: center;
@@ -149,12 +149,12 @@ header nav ul li.active::after{
     font-size: 44px;
 }
 .description p{
-    padding: 0px 140px;
+    padding: 0px 170px;
     padding-bottom: 30px;
     font-size: 24px;
     text-align: center;
     line-height: 200%;
-    
+    font-size: 20px;
     
 }
 .description img{
@@ -205,7 +205,38 @@ header nav ul li.active::after{
 .list-devices nav ul li.last{
     margin-bottom: 300px;
 }
-.list-devices nav ul li::before{
+.list-devices nav ul li:not(.mouse, .keyboard)::before{
+    content: " ";
+    display: block ;
+    
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 140px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+    
+}
+.list-devices nav ul li.mouse::before{
+    content: " ";
+    display: block ;
+    
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 103px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.keyboard::before{
     content: " ";
     display: block ;
     
@@ -219,8 +250,8 @@ header nav ul li.active::after{
     position: relative;
     right: -125px;    
     bottom: -20px;
-    
 }
+
 /*Для блоков с девайсами*/
 /*.devices nav ul li a{
     
@@ -357,48 +388,68 @@ header nav ul li.active::after{
     margin-bottom: 4px;
 }
 
+
 /**!Для помощи*/
 
 
 
-.wrapper .help p{
+.help p{
     text-align: center;
-    font-size: 34px;
+    font-size: 31px;
     margin-top: 200px;
     margin-bottom: 70px;
+    line-height: 200%;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 2;
+    
+    
 }
 .help .e-mail{
-    margin-left: 500px;
-    width: 366px;
-    height: 100px;
-    border-radius: 105px;
+    margin-left: 537px;
+    width: 330px;
+    height: 90px;
+    border-radius: 100px;
     font-size: 27px;
     margin-top: 50px;
     color: #fff;
-   
-   
     border: 0;
-   
-   
     list-style: none;
     transition: all 500ms ease;
     display: block;   
     
 }
 .help .e-mail:hover{
-    width: 438px;
-    height: 120px;
-    border-radius: 117px;
+    width:394px;
+    height: 108px;
+    border-radius: 112px;
+    
 }
 
 .help button{
-    margin-bottom: 300px;
+    margin-bottom: 380px;
+}
+.help img{
+    position: absolute;
+    width: 20%;
+    top: 270px;
+    left: -470px;
+    z-index: 1;
+    rotate: 30deg;
+    opacity: 50%;
+    
+    
 }
 .help-point{
     margin-top: 355px;
     font-size: 0px;
 }
+
+
 /**!Для футера*/
+
+
 footer{
     padding-top: 50px;
     background: rgb(15, 15, 15);
