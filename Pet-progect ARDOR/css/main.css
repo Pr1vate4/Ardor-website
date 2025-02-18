@@ -43,7 +43,7 @@ header nav ul{
     list-style: none;
     display: flex;
     margin-left: 500px;
-    width: 52%;
+    width: 43%;
     justify-content: space-between;
     font-size: 21px;
     margin-top: -40px;
@@ -65,8 +65,20 @@ header nav ul li.active::after{
     background: rgb(223, 28, 28);
     border-radius: 10px;
 }
-
-
+header .language img{
+    width: 8.5%;
+    position: relative;
+    top: -3.5px;
+    margin-right: 7px;
+}
+header .language{
+    display: flex;
+    margin-left: 1500px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -25px;
+    
+}
 
 /**!тут для главной*/
 
@@ -165,6 +177,7 @@ header nav ul li.active::after{
     
 
 }
+
 /**тут для выбора каталога*/
 
 
@@ -205,7 +218,7 @@ header nav ul li.active::after{
 .list-devices nav ul li.last{
     margin-bottom: 300px;
 }
-.list-devices nav ul li:not(.mouse, .keyboard)::before{
+.list-devices nav ul li:not(.mouse, .keyboard, .chair)::before{
     content: " ";
     display: block ;
     
@@ -215,7 +228,7 @@ header nav ul li.active::after{
     height: 7px;
     background: rgb(66, 66, 66);
     border-radius: 100%;
-    margin-left: 140px;
+    margin-left: 150px;
     position: relative;
     right: -125px;    
     bottom: -20px;
@@ -231,7 +244,7 @@ header nav ul li.active::after{
     height: 7px;
     background: rgb(66, 66, 66);
     border-radius: 100%;
-    margin-left: 103px;
+    margin-left: 113px;
     position: relative;
     right: -125px;    
     bottom: -20px;
@@ -246,7 +259,22 @@ header nav ul li.active::after{
     height: 7px;
     background: rgb(66, 66, 66);
     border-radius: 100%;
-    margin-left: 155px;
+    margin-left: 165px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.chair::before{
+    content: " ";
+    display: block ;
+        
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 122px;
     position: relative;
     right: -125px;    
     bottom: -20px;
@@ -421,9 +449,7 @@ header nav ul li.active::after{
     
 }
 .help .e-mail:hover{
-    width:394px;
-    height: 108px;
-    border-radius: 112px;
+    scale: 1.2;
     
 }
 
@@ -447,6 +473,25 @@ header nav ul li.active::after{
 }
 
 
+/**! инфа об ардоре */
+
+.ardor h1{
+    margin-top: -20px;
+}
+.ardor p{
+    font-size: 21px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.ardor{
+    margin-bottom: -150px;
+}
+.ardor img{
+   position: relative;
+   top: -700px;
+   width: 60%;
+   margin-bottom: -250px;
+}
 /**!Для футера*/
 
 
