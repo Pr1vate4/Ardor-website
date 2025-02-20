@@ -186,7 +186,7 @@ header .language{
     display: block;
     width: 60%;
     padding: 30px;
-    text-align: center;
+    
     
 }
 .list-devices nav ul li:not(.last){
@@ -202,7 +202,7 @@ header .language{
 }
 .list-devices nav ul{
     padding: 30px;
-    margin-right: 1445px;
+    margin-right: 1405px;
     background-color: rgb(10,10,10);
     
     
@@ -401,6 +401,39 @@ header .language{
 .devices nav ul li:hover{
     scale: 1.1;
 }
+
+/**тут переключение между номерами страниц*/
+
+.navigation ul{
+    margin-left: 500px;
+    margin-bottom: -30px;
+    position: relative;
+    top: -100px;
+}
+.navigation ul button{
+    background-color: rgb(30, 30, 30);
+    border: 0;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 3px;
+    transition: all 500ms ease;
+}
+.navigation ul button a{
+    color: #acacac;
+    padding: 0px 0px;
+    font-size: 14px;
+}   
+.navigation ul button.last{
+    width: 97px;
+}
+.navigation ul button:hover{
+    background-color: rgb(223, 28, 28);
+}
+.navigation ul button.active{
+    background-color: rgb(223, 28, 28)
+}
+
 /**!тут обо мне*/
 
 
@@ -584,6 +617,8 @@ header .language{
    width: 60%;
    margin-bottom: -250px;
 }
+
+
 /**!Для футера*/
 
 
