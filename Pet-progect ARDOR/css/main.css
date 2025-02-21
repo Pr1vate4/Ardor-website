@@ -195,14 +195,13 @@ header .language{
 }
 .list-devices nav ul li a{
     color: #fff;
-    
     margin-left: 150px;
     margin-top: 150px;
     font-size: 21px;
 }
 .list-devices nav ul{
     padding: 30px;
-    margin-right: 1405px;
+    margin-right: 1420px;
     background-color: rgb(10,10,10);
     
     
@@ -223,9 +222,7 @@ header .language{
 .list-devices nav ul li:not(.mouse, .keyboard, .chair)::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(66, 66, 66);
@@ -239,9 +236,7 @@ header .language{
 .list-devices nav ul li.mouse::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(66, 66, 66);
@@ -254,9 +249,7 @@ header .language{
 .list-devices nav ul li.keyboard::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(66, 66, 66);
@@ -268,10 +261,8 @@ header .language{
 }
 .list-devices nav ul li.chair::before{
     content: " ";
-    display: block ;
-        
+    display: block;
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(66, 66, 66);
@@ -284,9 +275,7 @@ header .language{
 .list-devices nav ul li.mouse.active::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(223, 28, 28);
@@ -300,9 +289,7 @@ header .language{
 .list-devices nav ul li.keyboard.active::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(223, 28, 28);
@@ -315,9 +302,7 @@ header .language{
 .list-devices nav ul li.headphone.active::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(223, 28, 28);
@@ -331,9 +316,7 @@ header .language{
 .list-devices nav ul li.monitor.active::before{
     content: " ";
     display: block ;
-    
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(223, 28, 28);
@@ -347,9 +330,7 @@ header .language{
 .list-devices nav ul li.chair.active::before{
     content: " ";
     display: block ;
-        
     font-size: 13px;
-    
     width: 7px;
     height: 7px;
     background: rgb(223, 28, 28);
@@ -363,29 +344,22 @@ header .language{
 /**Для блоков с девайсами*/
 
 .devices nav ul li a{
-    
     width: 0%;
     padding: 160px 140px;
     background: rgba(53, 17, 17, 0.401); 
     border-radius: 20px;
     margin: 30px;
-    
-    
-
-    
 
 }
 .devices nav ul li{
     display: flex;
     width: 100%;
-    margin-left: 0px;
     margin-bottom: -10px;
     list-style: none;
     position: relative;
     top: -190px;
     left: 480px;
     transition: all 500ms ease;
-    
 
 }
 .devices nav ul{
@@ -421,7 +395,6 @@ header .language{
 }
 .navigation ul button a{
     color: #acacac;
-    padding: 0px 0px;
     font-size: 14px;
 }   
 .navigation ul button.last{
@@ -451,10 +424,8 @@ header .language{
     font-size: 21;
     margin-bottom: -30px;
     
-
 }
 .buttons .btn{
-   margin-top: 0px;
    color: #fff;
    border-radius: 35px;
    width: 275px;
@@ -466,10 +437,6 @@ header .language{
    display: block;
    justify-content: space-between;
    
-   
-   
-
-
 }
 .buttons button{
     margin-bottom: 120px;
@@ -534,7 +501,7 @@ header .language{
 }
 .about-icons .telegram-icon{
     margin-top: -7px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 .about-icons .github-icon{
     margin-top: -5px;
@@ -556,7 +523,6 @@ header .language{
     margin-right: 100px;
     position: relative;
     z-index: 2;
-    
     
 }
 .help .e-mail{
@@ -634,8 +600,6 @@ footer .blocks{
     width: 52%;
     color: #a7a7a7;
    
-    
-    
 }
 footer a{
     color: #494949;
