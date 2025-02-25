@@ -375,7 +375,9 @@ header .language{
 .devices nav ul li:hover{
     scale: 1.1;
 }
-
+.devices img{
+    scale: 0.8;
+}
 /**тут переключение между номерами страниц*/
 
 .navigation ul{
