@@ -216,9 +216,15 @@ header .language{
     border-radius: 10px;
     margin-left: 150px
 }
+
+/**? чтобы поменять размер выбора каталога нужно изменить margin-bottom в .list-devices nav ul li.last */
+/**? затем поменять top в .devices nav ul li и после поменять margin-top в .navigation ul*/
+
 .list-devices nav ul li.last{
-    margin-bottom: 300px;
+    margin-bottom: 450px;
+    
 }
+
 .list-devices nav ul li:not(.mouse, .keyboard, .chair)::before{
     content: " ";
     display: block ;
@@ -344,8 +350,8 @@ header .language{
 /**Для блоков с девайсами*/
 
 .devices nav ul li a{
-    width: 0%;
-    padding: 160px 140px;
+    
+    padding: 10px 10px;
     background: rgba(53, 17, 17, 0.401); 
     border-radius: 20px;
     margin: 30px;
@@ -357,7 +363,7 @@ header .language{
     margin-bottom: -10px;
     list-style: none;
     position: relative;
-    top: -190px;
+    top: -330px;
     left: 480px;
     transition: all 500ms ease;
 
@@ -375,16 +381,30 @@ header .language{
 .devices nav ul li:hover{
     scale: 1.1;
 }
-.devices img{
+.devices nav ul li img {
     scale: 0.8;
+    position: relative;
+    top: 30px;
+
 }
+
+.devices-mouses nav ul li a h1{
+    color: #d1d0d0;
+    font-size: 24px;
+    position: relative;
+    top: -300px;
+    left: 15px;
+    
+}
+
 /**тут переключение между номерами страниц*/
 
 .navigation ul{
     margin-left: 500px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     position: relative;
     top: -100px;
+    margin-top: -190px;
 }
 .navigation ul button{
     background-color: rgb(30, 30, 30);
@@ -401,6 +421,9 @@ header .language{
 }   
 .navigation ul button.last{
     width: 97px;
+}
+.navigation ul button.first{
+    width: 77px;
 }
 .navigation ul button:hover{
     background-color: rgb(223, 28, 28);
