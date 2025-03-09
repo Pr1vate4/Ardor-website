@@ -228,6 +228,9 @@ header .language{
     margin-bottom: 125px;
     
 }
+.two-on-screen nav ul li.last{
+    margin-bottom: 450px;
+}
 .one-on-screen-chair nav ul li.last{
     margin-bottom: 125px;
 }
@@ -374,6 +377,10 @@ header .language{
     transition: all 500ms ease;
 
 }
+.two-on-screen-block nav{
+    margin-bottom: 300px;
+
+}
 .one-on-screen-block nav ul li{
     top: -5px;
 }
@@ -409,7 +416,7 @@ header .language{
 .devices nav ul li a h1{
     padding-right: 30px;
 }
-.devices-mouses nav ul li a h1, .devices-keyboard nav ul li a h1, .devices-headpones nav ul li a h1{
+.devices-mouses nav ul li a h1, .devices-keyboard nav ul li a h1, .devices-headpones nav ul li a h1, .devices-monitors nav ul li a h1{
     color: #d1d0d0;
     font-size: 24px;
     position: relative;
@@ -429,6 +436,25 @@ header .language{
 }
 .devices-chair nav ul li img{
     margin-bottom: -30px;
+}
+.devices-monitors nav ul li a img{
+    padding-bottom: 52px;
+}
+.devices-monitors nav ul li img{
+    top: 50px;
+}
+.devices-monitors nav ul li a h1{
+    position: absolute;
+    top: 50px;
+    left: 53px;
+
+}
+.devices-monitors nav ul li img.dumb-img{
+    top: 70px;
+    scale: 0.85;
+}
+.devices-monitors nav ul li a{
+    padding: 15px 0px;
 }
 .devices-keyboard nav ul li a{
     padding: 0px 0px;
