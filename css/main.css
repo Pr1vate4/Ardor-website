@@ -497,6 +497,59 @@ header .language{
     background-color: rgb(223, 28, 28)
 }
 
+/**тут для информации о карточке товара*/
+
+.start_group h1{
+    color: #d1d0d0;
+    font-size: 44px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.start_group h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #dbdada;
+}
+.start_group p{
+    width: 55%;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+.specifications_group h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #dbdada;
+}
+.specifications_group li{
+    list-style: none;
+    padding-right: 10px;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.specifications_group ul{
+    display: flex;
+    
+    
+}
+.specifications_group nav ul li.podchercivania{
+    opacity: 50%;
+
+}
+.double-img{
+    position: absolute;
+    width: 60%;
+    left: 500px;
+    top: 660px;
+}
+.double-img img:not(.second-on-double-img){
+    margin-bottom: 50px;
+}
+.specifications_group nav ul li.last{
+    margin-bottom: 270px;
+}
+
+
 /**!тут обо мне*/
 
 
