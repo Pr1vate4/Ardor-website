@@ -1,0 +1,771 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Liter&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Liter";
+    font-weight: 450;
+    
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+
+}
+img {
+    max-width: 100%;
+    
+}
+.wrapper{
+    
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 55%, rgb(77, 10, 15) 115%);
+    width: 100%;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+header{
+    padding: 30px;
+    background: rgb(10, 10, 10);
+    
+    
+    
+    
+}
+header nav ul{
+    margin-top: -20px;
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    width: 43%;
+    justify-content: space-between;
+    font-size: 21px;
+    margin-top: -40px;
+}
+header nav ul li a{
+    color: #fff;
+    
+
+}
+header nav ul li:not(.active) a:hover, .list-devices nav ul li:not(.active) a:hover{
+    border-bottom: 5px solid  rgb(223, 28, 28);
+    
+}
+header nav ul li.active::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: rgb(223, 28, 28);
+    border-radius: 10px;
+}
+header .language img{
+    width: 8.5%;
+    position: relative;
+    top: -3.5px;
+    margin-right: 7px;
+}
+header .language{
+    display: flex;
+    margin-left: 1500px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -25px;
+    
+}
+
+/**!тут для главной*/
+
+
+
+.logo{
+    font-family: "poppins";
+    font-size: 44px;
+    margin-left: 180px;
+    font-weight: 700;
+    color: rgb(223, 28, 28);
+    
+}
+.hero-info {
+    margin-top: 155px;
+
+}
+.hero-info h1{
+    width: 20%;
+    font-size: 44px;
+    margin-bottom: 26px;
+    line-height:130%;
+    
+}
+.hero-info p{
+    width: 38%;
+    font-size: 18px;
+    line-height:180%;
+}
+.hero img{
+    position: relative;
+    margin-left: 750px;
+    width: 45%;
+    top: -415px;
+}
+.hero-info-2{
+    position: relative;
+    top: -200px
+    
+}
+.hero-info-2 h1{
+    margin-left: 870px;
+    width: 30%;
+    font-size: 44px;
+    margin-bottom: 26px;
+    line-height:130%;
+    
+   
+}
+.hero-info-2 p{
+    margin-left: 870px;
+    width: 41%;
+    font-size: 18px;
+    line-height:180%;
+    margin-bottom: -700px;
+    
+    
+}
+.Zgame{
+    position: relative;
+    left: -850px;
+    margin-top: 550px;
+    
+
+}
+
+
+/**!тут типо для девайсов*/
+
+
+/**тут для описания каталога*/
+
+.other-background{
+    background: rgb(255,0,75);
+    background: linear-gradient(90deg, rgba(255,0,75,1) -200%, rgba(0,0,0,1) 50%, rgba(255,0,75,1) 300%);
+}
+.description h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 44px;
+}
+.description p{
+    padding: 0px 170px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 200%;
+    font-size: 20px;
+    
+}
+.description img{
+    margin-left: 420px;
+    position: relative;
+    top: 50px;
+    
+    
+
+}
+
+/**тут для выбора каталога*/
+
+
+.list-devices nav ul li{
+    list-style: none;
+    display: block;
+    width: 60%;
+    padding: 30px;
+    
+    
+}
+.list-devices nav ul li:not(.last){
+    padding-bottom: 80px;
+
+}
+.list-devices nav ul li a{
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: 21px;
+}
+.list-devices nav ul{
+    padding: 30px;
+    margin-right: 1420px;
+    background-color: rgb(10,10,10);
+    
+    
+}
+
+.list-devices nav ul li.active::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: rgb(223, 28, 28);
+    border-radius: 10px;
+    margin-left: 150px
+}
+
+/**? чтобы поменять размер выбора каталога нужно изменить margin-bottom в .list-devices nav ul li.last */
+/**? затем поменять top в .devices nav ul li и после поменять margin-top в .navigation ul*/
+
+.list-devices nav ul li.last{
+    margin-bottom: 450px;
+    
+}
+.one-on-screen nav ul li.last{
+    margin-bottom: 125px;
+    
+}
+.two-on-screen nav ul li.last{
+    margin-bottom: 450px;
+}
+.one-on-screen-chair nav ul li.last{
+    margin-bottom: 125px;
+}
+.list-devices nav ul li:not(.mouse, .keyboard, .chair)::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 150px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+    
+}
+.list-devices nav ul li.mouse::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 113px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.keyboard::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 165px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.chair::before{
+    content: " ";
+    display: block;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(66, 66, 66);
+    border-radius: 100%;
+    margin-left: 122px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.mouse.active::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(223, 28, 28);
+    border-radius: 100%;
+    margin-left: 128px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+   
+}
+.list-devices nav ul li.keyboard.active::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(223, 28, 28);
+    border-radius: 100%;
+    margin-left: 180px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+.list-devices nav ul li.headphone.active::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(223, 28, 28);
+    border-radius: 100%;
+    margin-left: 165px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+    
+}
+.list-devices nav ul li.monitor.active::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(223, 28, 28);
+    border-radius: 100%;
+    margin-left: 165px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+    
+}
+.list-devices nav ul li.chair.active::before{
+    content: " ";
+    display: block ;
+    font-size: 13px;
+    width: 7px;
+    height: 7px;
+    background: rgb(223, 28, 28);
+    border-radius: 100%;
+    margin-left: 137px;
+    position: relative;
+    right: -125px;    
+    bottom: -20px;
+}
+
+/**Для блоков с девайсами*/
+
+.devices nav ul li a{
+    
+    padding: 10px 10px;
+    background: rgba(53, 17, 17, 0.401); 
+    border-radius: 20px;
+    margin: 30px;
+
+}
+.devices nav ul li{
+    display: flex;
+    width: 100%;
+    margin-bottom: -10px;
+    list-style: none;
+    position: relative;
+    top: -330px;
+    left: 480px;
+    transition: all 500ms ease;
+
+}
+.two-on-screen-block nav{
+    margin-bottom: 300px;
+
+}
+.one-on-screen-block nav ul li{
+    top: -5px;
+}
+.one-on-screen-block-chair nav ul li{
+    margin-bottom: 710px;
+}
+.one-on-screen-block-chair nav ul li{
+    top: -5px;
+}
+.one-on-screen-block-chair nav ul li h1{
+    padding-bottom: 43px;
+}
+.devices nav ul{
+    display: flex;
+    width: 62.5%;
+}
+.list-devices{
+    margin-bottom: -1110px;
+}
+.list-devices nav ul{
+    padding-bottom: 300px;
+}
+.devices nav ul li:hover{
+    scale: 1.1;
+}
+.devices nav ul li img {
+    scale: 0.8;
+    position: relative;
+    top: 30px;
+
+}
+
+.devices nav ul li a h1{
+    padding-right: 30px;
+}
+.devices-mouses nav ul li a h1, .devices-keyboard nav ul li a h1, .devices-headpones nav ul li a h1, .devices-monitors nav ul li a h1{
+    color: #d1d0d0;
+    font-size: 24px;
+    position: relative;
+    top: -300px;
+    left: 15px;
+
+}
+.devices-chair nav ul li a h1{
+    color: #d1d0d0;
+    font-size: 24px;
+    position: relative;
+    top: -270px;
+    left: 15px;
+}
+.devices-chair nav ul li img{
+    top: 60px;
+}
+.devices-chair nav ul li img{
+    margin-bottom: -30px;
+}
+.devices-monitors nav ul li a img{
+    padding-bottom: 52px;
+}
+.devices-monitors nav ul li img{
+    top: 50px;
+}
+.devices-monitors nav ul li a h1{
+    position: absolute;
+    top: 50px;
+    left: 53px;
+
+}
+.devices-monitors nav ul li img.dumb-img{
+    top: 70px;
+    scale: 0.85;
+}
+.devices-monitors nav ul li a{
+    padding: 15px 0px;
+}
+.devices-keyboard nav ul li a{
+    padding: 0px 0px;
+}
+.devices-headpones nav ul li.one_headpone{
+    margin-bottom: 675px;
+}
+/**тут переключение между номерами страниц*/
+
+.navigation ul{
+    margin-left: 500px;
+    margin-bottom: -20px;
+    position: relative;
+    top: -100px;
+    margin-top: -190px;
+}
+.navigation ul button{
+    background-color: rgb(30, 30, 30);
+    border: 0;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 3px;
+    transition: all 500ms ease;
+}
+.navigation ul button a{
+    color: #acacac;
+    font-size: 14px;
+}   
+.navigation ul button.last{
+    width: 97px;
+}
+.navigation ul button.first{
+    width: 77px;
+}
+.navigation ul button:hover{
+    background-color: rgb(223, 28, 28);
+}
+.navigation ul button.active{
+    background-color: rgb(223, 28, 28)
+}
+
+/**тут для информации о карточке товара*/
+
+.start_group h1{
+    color: #d1d0d0;
+    font-size: 44px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.start_group h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #dbdada;
+}
+.start_group p{
+    width: 55%;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+.specifications_group h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #dbdada;
+}
+.specifications_group li{
+    list-style: none;
+    padding-right: 10px;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.specifications_group ul{
+    display: flex;
+    
+    
+}
+.specifications_group nav ul li.podchercivania{
+    opacity: 50%;
+
+}
+.double-img{
+    position: absolute;
+    width: 60%;
+    left: 500px;
+    top: 660px;
+}
+.double-img img:not(.second-on-double-img){
+    margin-bottom: 50px;
+}
+.second-on-double-img{
+    margin-bottom: -150px;
+}
+.specifications_group nav ul li.last{
+    margin-bottom: 270px;
+}
+.double-img img{
+    padding: 10px 10px;
+    background: rgba(53, 17, 17, 0.401); 
+    border-radius: 20px;
+}
+
+/**!тут обо мне*/
+
+
+.about h1{
+    margin-top: 250px;
+    width: 25%;
+    line-height: 130%;
+    margin-bottom: 32px;
+    font-size: 34px;
+}
+.about p{
+    width: 41%;
+    line-height:180%;
+    font-size: 20px;
+    font-size: 21;
+    margin-bottom: -30px;
+    
+}
+.buttons .btn{
+   color: #fff;
+   border-radius: 35px;
+   width: 275px;
+   height: 75px;
+   border: 0;
+   font-size: 21px;
+   list-style: none;
+   transition: all 500ms ease;
+   display: block;
+   justify-content: space-between;
+   
+}
+.buttons button{
+    margin-bottom: 120px;
+}
+
+.buttons .btn:hover{
+    width: 311px;
+    height: 85px;
+    border-radius: 40px;
+}
+
+.buttons .telegram:hover{
+    background: rgb(32, 31, 70);
+
+}
+.buttons .e-mail:hover, .help .e-mail:hover{
+    background: rgb(165, 34, 34);
+
+}
+.buttons .github:hover{
+    background: rgb(21, 21, 21);
+
+
+}
+
+
+
+.buttons .btn a, .help .btn a{
+    color: #fff;
+}
+.buttons .telegram, .buttons .github, .buttons .e-mail{
+    margin-left: 690px;
+    position: relative;
+    top: -390px
+
+}
+.buttons .telegram{
+    background-color: rgb(38, 38, 88);
+}
+.buttons .e-mail, .help .e-mail{
+    background-color: rgb(223, 28, 28);
+
+}
+.buttons .github{
+    background-color: rgb(18, 18, 18);
+}
+.about-icons{
+    display: block;
+    margin-left: 1400px;
+    margin-top: -600px;
+    position: relative;
+    top: -400px;
+    width: 7%;
+}
+.about-icons img{
+    padding-bottom: 63px;
+}
+
+.telegram-icon{
+    position: relative;
+    left: -130px;
+}
+.about-icons .telegram-icon{
+    margin-top: -7px;
+    margin-bottom: 12px;
+}
+.about-icons .github-icon{
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
+
+
+/**!Для помощи*/
+
+
+
+.help p{
+    text-align: center;
+    font-size: 31px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    line-height: 200%;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 2;
+    
+}
+.help .e-mail{
+    margin-left: 537px;
+    width: 330px;
+    height: 90px;
+    border-radius: 100px;
+    font-size: 27px;
+    margin-top: 50px;
+    color: #fff;
+    border: 0;
+    list-style: none;
+    transition: all 500ms ease;
+    display: block;   
+    
+}
+.help .e-mail:hover{
+    scale: 1.15;
+    
+}
+
+.help button{
+    margin-bottom: 380px;
+}
+.help img{
+    position: absolute;
+    width: 20%;
+    top: 270px;
+    left: -470px;
+    z-index: 1;
+    rotate: 30deg;
+    opacity: 50%;
+    
+    
+}
+.help-point{
+    margin-top: 355px;
+    font-size: 0px;
+}
+
+
+/**! инфа об ардоре */
+
+.ardor h1{
+    margin-top: -20px;
+}
+.ardor p{
+    font-size: 21px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.ardor{
+    margin-bottom: -150px;
+}
+.ardor img{
+   position: relative;
+   top: -700px;
+   width: 60%;
+   margin-bottom: -250px;
+}
+
+
+/**!Для футера*/
+
+
+footer{
+    padding-top: 50px;
+    background: rgb(15, 15, 15);
+    
+    
+}
+footer .blocks{
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+    color: #a7a7a7;
+   
+}
+footer a{
+    color: #494949;
+    display: flex;
+}
+footer .blocks p{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+footer .blocks a{
+    padding-bottom: 15px;
+}
+footer img{
+    width: 9%;
+    position: relative;
+    top: -140px;
+    margin-left: 180px;
+    margin-bottom: -100px;
+}
