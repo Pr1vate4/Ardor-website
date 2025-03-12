@@ -525,7 +525,7 @@ header .language{
     list-style: none;
     padding-right: 10px;
     font-size: 18px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 .specifications_group ul{
     display: flex;
@@ -545,10 +545,17 @@ header .language{
 .double-img img:not(.second-on-double-img){
     margin-bottom: 50px;
 }
+.second-on-double-img{
+    margin-bottom: -150px;
+}
 .specifications_group nav ul li.last{
     margin-bottom: 270px;
 }
-
+.double-img img{
+    padding: 10px 10px;
+    background: rgba(53, 17, 17, 0.401); 
+    border-radius: 20px;
+}
 
 /**!тут обо мне*/
 
