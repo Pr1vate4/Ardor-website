@@ -416,7 +416,7 @@ header .language{
 .devices nav ul li a h1{
     padding-right: 30px;
 }
-.devices-mouses nav ul li a h1, .devices-keyboard nav ul li a h1, .devices-headpones nav ul li a h1, .devices-monitors nav ul li a h1{
+.devices-mouses nav ul li a h1, .devices-keyboard nav ul li a h1, .devices-headphones nav ul li a h1, .devices-monitors nav ul li a h1{
     color: #d1d0d0;
     font-size: 24px;
     position: relative;
@@ -459,8 +459,13 @@ header .language{
 .devices-keyboard nav ul li a{
     padding: 0px 0px;
 }
-.devices-headpones nav ul li.one_headpone{
+.devices-headphones nav ul li.one_headphone{
     margin-bottom: 675px;
+
+}
+.devices-headphones nav ul li.one_headphone img{
+    top: 60px;
+    
 }
 /**тут переключение между номерами страниц*/
 
