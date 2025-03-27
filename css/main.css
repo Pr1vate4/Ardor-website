@@ -390,9 +390,7 @@ header .language{
 .one-on-screen-block-chair nav ul li{
     top: -5px;
 }
-.one-on-screen-block-chair nav ul li h1{
-    padding-bottom: 43px;
-}
+
 .devices nav ul{
     display: flex;
     width: 62.5%;
@@ -428,14 +426,20 @@ header .language{
     color: #d1d0d0;
     font-size: 24px;
     position: relative;
-    top: -270px;
+    top: -310px;
     left: 15px;
 }
 .devices-chair nav ul li img{
     top: 60px;
 }
 .devices-chair nav ul li img{
+    margin-bottom: -0px;
+}
+.one-on-screen-block-chair nav ul li img{
     margin-bottom: -30px;
+}
+.one-on-screen-block-chair nav ul li h1{
+    padding-top: 35px;
 }
 .devices-monitors nav ul li a img{
     padding-bottom: 52px;
