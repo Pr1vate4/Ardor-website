@@ -568,7 +568,6 @@ header .language{
 
 /**!тут обо мне*/
 
-
 .about h1{
     margin-top: 250px;
     width: 25%;
@@ -583,6 +582,18 @@ header .language{
     font-size: 21;
     margin-bottom: -30px;
     
+}
+.hero-about{
+    opacity: 0; 
+    animation: Slide ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1s; 
+}
+
+
+@keyframes Slide {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 .buttons .btn{
    color: #fff;
@@ -682,15 +693,17 @@ header .language{
     margin-right: 100px;
     position: relative;
     z-index: 2;
+    margin-bottom: 350px;
     
 }
 .help .e-mail{
+    position: relative;
     margin-left: 537px;
     width: 330px;
     height: 90px;
     border-radius: 100px;
     font-size: 27px;
-    margin-top: 50px;
+    top: -275px;
     color: #fff;
     border: 0;
     list-style: none;
@@ -704,7 +717,7 @@ header .language{
 }
 
 .help button{
-    margin-bottom: 380px;
+    margin-bottom: 0px;
 }
 .help img{
     position: absolute;
@@ -716,10 +729,6 @@ header .language{
     opacity: 50%;
     
     
-}
-.help-point{
-    margin-top: 355px;
-    font-size: 0px;
 }
 
 
