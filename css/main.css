@@ -80,6 +80,7 @@ header .language{
     
 }
 
+
 /**!тут для главной*/
 
 
@@ -104,8 +105,8 @@ header .language{
     
 }
 .hero-info p{
-    width: 38%;
-    font-size: 18px;
+    width: 45%;
+    font-size: 20px;
     line-height:180%;
 }
 .hero img{
@@ -116,7 +117,7 @@ header .language{
 }
 .hero-info-2{
     position: relative;
-    top: -200px
+    top: -190px
     
 }
 .hero-info-2 h1{
@@ -130,8 +131,8 @@ header .language{
 }
 .hero-info-2 p{
     margin-left: 870px;
-    width: 41%;
-    font-size: 18px;
+    width: 44%;
+    font-size: 20px;
     line-height:180%;
     margin-bottom: -700px;
     
@@ -143,6 +144,41 @@ header .language{
     margin-top: 550px;
     
 
+}
+.hero-info h1{
+    opacity: 0; 
+    animation: fadeIn ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 0.9s; 
+}
+.hero-info p{
+    opacity: 0; 
+    animation: fadeOn ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1.7s; 
+}
+.hero-info-2 h1{
+    opacity: 0; 
+    animation: fadeIn-2 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 3s; 
+}
+.hero-info-2 p{
+    opacity: 0; 
+    animation: fadeOn-2 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 4s; 
+}
+@keyframes fadeIn-2 {
+    0% { opacity: 0; margin-left: 780px;}
+    75% { opacity: 0; margin-left: 780px}
+    100% { opacity: 1; margin-left: 870px}
+}
+@keyframes fadeOn-2 {
+    0% { opacity: 0; margin-left: 780px;}
+    50% { opacity: 0; margin-left: 780px;}
+    80% { opacity: 0; margin-left: 780px}
+    100% { opacity: 1; margin-left: 870px}
 }
 
 
@@ -567,33 +603,82 @@ header .language{
 }
 
 /**!тут обо мне*/
-
+.hero-about{
+    position: relative;
+    top: 40px;
+}
 .about h1{
-    margin-top: 250px;
+    margin-top: 200px;
     width: 25%;
     line-height: 130%;
     margin-bottom: 32px;
     font-size: 34px;
 }
 .about p{
-    width: 41%;
+    width: 42%;
     line-height:180%;
     font-size: 20px;
     font-size: 21;
     margin-bottom: -30px;
     
 }
-.hero-about{
+
+.hero-about h1{
     opacity: 0; 
-    animation: Slide ease-in 1; 
+    animation: fadeIn ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 1s; 
+    animation-duration: 0.9s; 
+}
+.hero-about p{
+    opacity: 0; 
+    animation: fadeOn ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1.7s; 
 }
 
 
-@keyframes Slide {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+@keyframes fadeIn {
+    0% { opacity: 0; margin-left: -90px;}
+    100% { opacity: 1; margin-left: 0px}
+}
+@keyframes fadeOn {
+    0% { opacity: 0; margin-left: -90px }
+    50% { opacity: 0; margin-left: -90px }
+    100% { opacity: 1; margin-left: 0px}
+}
+@keyframes button {
+    0% { opacity: 0; margin-left: 690px }
+    80% { opacity: 0; margin-left: 690px }
+    100% { opacity: 1; margin-left: 740px }
+}
+@keyframes button-2 {
+    0% { opacity: 0; margin-left: 690px }
+    85% { opacity: 0; margin-left: 690px }
+    100% { opacity: 1; margin-left: 740px }
+}
+@keyframes button-3 {
+    0% { opacity: 0; margin-left: 690px }
+    89% { opacity: 0; margin-left: 690px }
+    100% { opacity: 1; margin-left: 740px }
+}
+
+.buttons .github{
+    opacity: 0; 
+    animation: button ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2.1s; 
+}
+.buttons .telegram{
+    opacity: 0; 
+    animation: button-2 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2.8s; 
+}
+.buttons .e-mail{
+    opacity: 0; 
+    animation: button-3 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 3.3s; 
 }
 .buttons .btn{
    color: #fff;
@@ -638,7 +723,7 @@ header .language{
     color: #fff;
 }
 .buttons .telegram, .buttons .github, .buttons .e-mail{
-    margin-left: 690px;
+    margin-left: 740px;
     position: relative;
     top: -390px
 
@@ -653,9 +738,42 @@ header .language{
 .buttons .github{
     background-color: rgb(18, 18, 18);
 }
+.about-icons .github-icon{
+    opacity: 0; 
+    animation: about-icon ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2.1s; 
+}
+.about-icons .telegram-icon{
+    opacity: 0; 
+    animation: about-icon-2 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2.8s; 
+}
+.about-icons .email-icon{
+    opacity: 0; 
+    animation: about-icon-3 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 3.3s; 
+}
+@keyframes about-icon {
+    0% { opacity: 0;  }
+    80% { opacity: 0;  }
+    100% { opacity: 1;  }
+}
+@keyframes about-icon-2 {
+    0% { opacity: 0;  }
+    86% { opacity: 0;  }
+    100% { opacity: 1;  }
+}
+@keyframes about-icon-3 {
+    0% { opacity: 0;  }
+    89% { opacity: 0;  }
+    100% { opacity: 1;  }
+}
 .about-icons{
     display: block;
-    margin-left: 1400px;
+    margin-left: 1450px;
     margin-top: -600px;
     position: relative;
     top: -400px;
@@ -693,7 +811,7 @@ header .language{
     margin-right: 100px;
     position: relative;
     z-index: 2;
-    margin-bottom: 350px;
+    margin-bottom: 480px;
     
 }
 .help .e-mail{
@@ -703,7 +821,7 @@ header .language{
     height: 90px;
     border-radius: 100px;
     font-size: 27px;
-    top: -275px;
+    top: -370px;
     color: #fff;
     border: 0;
     list-style: none;
@@ -715,7 +833,17 @@ header .language{
     scale: 1.15;
     
 }
-
+.help button{
+    opacity: 0; 
+    animation: help-button ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1.5s; 
+}
+@keyframes help-button {
+    0% { opacity: 0;  }
+    100% { opacity: 1;  }
+    
+}
 .help button{
     margin-bottom: 0px;
 }
@@ -726,7 +854,7 @@ header .language{
     left: -470px;
     z-index: 1;
     rotate: 30deg;
-    opacity: 50%;
+    opacity: 40%;
     
     
 }
