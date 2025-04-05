@@ -115,6 +115,22 @@ header .language{
     width: 45%;
     top: -415px;
 }
+.hero img{
+    position: relative;
+    margin-left: 750px;
+    width: 45%;
+    top: -415px;
+}
+.hero img:not(.Zgame, .gmail_icon, .double-img img){
+    opacity: 0; 
+    animation: fadeRight ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1.7s; 
+}
+@keyframes fadeRight {
+    0% { opacity: 0; margin-left: 830px;}
+    100% { opacity: 1; margin-left: 750px}
+}
 .hero-info-2{
     position: relative;
     top: -190px
@@ -142,9 +158,19 @@ header .language{
     position: relative;
     left: -850px;
     margin-top: 550px;
-    
-
 }
+.Zgame{
+    opacity: 0; 
+    animation: fadeRight-2 ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 3.7s; 
+}
+@keyframes fadeRight-2 {
+    0% { opacity: 0; left: -930px;}
+    50% { opacity: 0; left: -930px;}
+    100% { opacity: 1; left: -850px;}
+}
+
 .hero-info h1{
     opacity: 0; 
     animation: fadeIn ease-in 1; 
@@ -161,13 +187,13 @@ header .language{
     opacity: 0; 
     animation: fadeIn-2 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 3s; 
+    animation-duration: 2.7s; 
 }
 .hero-info-2 p{
     opacity: 0; 
     animation: fadeOn-2 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 4s; 
+    animation-duration: 3.7s; 
 }
 @keyframes fadeIn-2 {
     0% { opacity: 0; margin-left: 780px;}
@@ -195,6 +221,18 @@ header .language{
     text-align: center;
     padding: 40px;
     font-size: 44px;
+    position: relative;
+}
+.description h1{
+    opacity: 0; 
+    animation: OnUp-devices ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 1s; 
+}
+    
+@keyframes OnUp-devices {
+    0% { opacity: 0; top: -40px;}
+    100% { opacity: 1; top: 0px}
 }
 .description p{
     padding: 0px 170px;
@@ -205,13 +243,16 @@ header .language{
     font-size: 20px;
     
 }
-.description img{
-    margin-left: 420px;
-    position: relative;
-    top: 50px;
-    
-    
-
+.description p{
+    opacity: 0; 
+    animation: fadeOn-devices ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2s; 
+}
+@keyframes fadeOn-devices {
+    0% { opacity: 0; top: -40px;}
+    50% { opacity: 0; top: -40px;}
+    100% { opacity: 1; top: 0px}
 }
 
 /**тут для выбора каталога*/
@@ -603,6 +644,8 @@ header .language{
 }
 
 /**!тут обо мне*/
+
+
 .hero-about{
     position: relative;
     top: 40px;
@@ -672,13 +715,13 @@ header .language{
     opacity: 0; 
     animation: button-2 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 2.8s; 
+    animation-duration: 2.6s; 
 }
 .buttons .e-mail{
     opacity: 0; 
     animation: button-3 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 3.3s; 
+    animation-duration: 3.1s; 
 }
 .buttons .btn{
    color: #fff;
@@ -748,13 +791,13 @@ header .language{
     opacity: 0; 
     animation: about-icon-2 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 2.8s; 
+    animation-duration: 2.6s; 
 }
 .about-icons .email-icon{
     opacity: 0; 
     animation: about-icon-3 ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 3.3s; 
+    animation-duration: 3.1s; 
 }
 @keyframes about-icon {
     0% { opacity: 0;  }
@@ -814,6 +857,17 @@ header .language{
     margin-bottom: 480px;
     
 }
+.help p{
+    opacity: 0; 
+    animation: OnUp ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2s; 
+    
+}
+@keyframes OnUp {
+    0% { opacity: 0;  top: -50px;}
+    100% { opacity: 1; top: 0px; }  
+}
 .help .e-mail{
     position: relative;
     margin-left: 537px;
@@ -837,11 +891,11 @@ header .language{
     opacity: 0; 
     animation: help-button ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 1.5s; 
+    animation-duration: 2.5s; 
 }
 @keyframes help-button {
-    0% { opacity: 0;  }
-    100% { opacity: 1;  }
+    0% { opacity: 0;}
+    100% { opacity: 1;}
     
 }
 .help button{
@@ -855,8 +909,16 @@ header .language{
     z-index: 1;
     rotate: 30deg;
     opacity: 40%;
-    
-    
+}
+.help img{
+    opacity: 0; 
+    animation: help-icon ease-in 1; 
+    animation-fill-mode: forwards; 
+    animation-duration: 2s; 
+}
+@keyframes help-icon {
+    0% { opacity: 0; rotate: 0deg; top: 370px; left: -570px;  }
+    100% { opacity: 40%; rotate: 30deg; top: 270px; left: -470px; }
 }
 
 
