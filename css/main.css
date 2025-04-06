@@ -133,7 +133,7 @@ header .language{
 }
 .hero-info-2{
     position: relative;
-    top: -190px
+    top: -173px
     
 }
 .hero-info-2 h1{
@@ -196,14 +196,14 @@ header .language{
     animation-duration: 3.7s; 
 }
 @keyframes fadeIn-2 {
-    0% { opacity: 0; margin-left: 780px;}
-    75% { opacity: 0; margin-left: 780px}
+    0% { opacity: 0; margin-left: 960px;}
+    75% { opacity: 0; margin-left: 960px}
     100% { opacity: 1; margin-left: 870px}
 }
 @keyframes fadeOn-2 {
-    0% { opacity: 0; margin-left: 780px;}
-    50% { opacity: 0; margin-left: 780px;}
-    80% { opacity: 0; margin-left: 780px}
+    0% { opacity: 0; margin-left: 960px;}
+    50% { opacity: 0; margin-left: 960px;}
+    80% { opacity: 0; margin-left: 960px}
     100% { opacity: 1; margin-left: 870px}
 }
 
@@ -227,7 +227,7 @@ header .language{
     opacity: 0; 
     animation: OnUp-devices ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 1s; 
+    animation-duration: 0.7s; 
 }
     
 @keyframes OnUp-devices {
@@ -247,7 +247,7 @@ header .language{
     opacity: 0; 
     animation: fadeOn-devices ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 2s; 
+    animation-duration: 1.4s; 
 }
 @keyframes fadeOn-devices {
     0% { opacity: 0; top: -40px;}
@@ -775,7 +775,7 @@ header .language{
     background-color: rgb(38, 38, 88);
 }
 .buttons .e-mail, .help .e-mail{
-    background-color: rgb(223, 28, 28);
+    background-color: rgb(190, 29, 29);
 
 }
 .buttons .github{
@@ -891,7 +891,7 @@ header .language{
     opacity: 0; 
     animation: help-button ease-in 1; 
     animation-fill-mode: forwards; 
-    animation-duration: 2.5s; 
+    animation-duration: 2.7s; 
 }
 @keyframes help-button {
     0% { opacity: 0;}
